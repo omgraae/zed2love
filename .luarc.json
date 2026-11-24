@@ -1,0 +1,19 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LuaLS/vscode-lua/master/setting/schema.json",
+  "runtime.version": "LuaJIT",
+  "runtime.special": {
+    "love.filesystem.load": "loadfile"
+  },
+  "diagnostics.globals": [
+    "love"
+  ],
+  "diagnostics.disable": [
+    "lowercase-global",
+    "unused-local",
+    "duplicate-set-field"
+  ],
+  "workspace.library": [
+    "${3rd}/love2d/library/"
+  ],
+  "workspace.checkThirdParty": false
+}

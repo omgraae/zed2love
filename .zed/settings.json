@@ -1,0 +1,7 @@
+{
+  "languages": {
+    "Lua": {
+      "language_servers": ["lua-language-server", "!emmylua"]
+    }
+  }
+}

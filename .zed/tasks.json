@@ -1,0 +1,134 @@
+[
+  {
+    "label": "Run Game",
+    "command": "/Applications/love.app/Contents/MacOS/love",
+    "args": [
+      "."
+    ],
+    "cwd": "$ZED_WORKTREE_ROOT",
+    "reveal": "always",
+    "hide": "never",
+    "use_new_terminal": true,
+    "allow_concurrent_runs": false
+  },
+  {
+    "label": "Example 1: Train Ride",
+    "command": "/Applications/love.app/Contents/MacOS/love",
+    "args": [
+      "."
+    ],
+    "cwd": "$ZED_WORKTREE_ROOT/examples/train_ride",
+    "reveal": "always",
+    "hide": "never",
+    "use_new_terminal": true,
+    "allow_concurrent_runs": false
+  },
+  {
+    "label": "Example 2: Mario Clone",
+    "command": "/Applications/love.app/Contents/MacOS/love",
+    "args": [
+      "."
+    ],
+    "cwd": "$ZED_WORKTREE_ROOT/examples/mario_clone",
+    "reveal": "always",
+    "hide": "never",
+    "use_new_terminal": true,
+    "allow_concurrent_runs": false
+  },
+  {
+    "label": "Example 3: Solitaire (CRT)",
+    "command": "/Applications/love.app/Contents/MacOS/love",
+    "args": [
+      "."
+    ],
+    "cwd": "$ZED_WORKTREE_ROOT/examples/solitaire",
+    "reveal": "always",
+    "hide": "never",
+    "use_new_terminal": true,
+    "allow_concurrent_runs": false
+  },
+  {
+    "label": "Example 4: Wolfendoom 3D",
+    "command": "/Applications/love.app/Contents/MacOS/love",
+    "args": [
+      "."
+    ],
+    "cwd": "$ZED_WORKTREE_ROOT/examples/wolfendoom",
+    "reveal": "always",
+    "hide": "never",
+    "use_new_terminal": true,
+    "allow_concurrent_runs": false
+  },
+  {
+    "label": "Example 5: Utopia (Isometric)",
+    "command": "/Applications/love.app/Contents/MacOS/love",
+    "args": [
+      "."
+    ],
+    "cwd": "$ZED_WORKTREE_ROOT/examples/utopia",
+    "reveal": "always",
+    "hide": "never",
+    "use_new_terminal": true,
+    "allow_concurrent_runs": false
+  },
+  {
+    "label": "Example 6: Shadermaxxing",
+    "command": "/Applications/love.app/Contents/MacOS/love",
+    "args": [
+      "."
+    ],
+    "cwd": "$ZED_WORKTREE_ROOT/examples/shadermaxxing",
+    "reveal": "always",
+    "hide": "never",
+    "use_new_terminal": true,
+    "allow_concurrent_runs": false
+  },
+  {
+    "label": "Build WASM",
+    "command": "make",
+    "args": [
+      "wasm"
+    ],
+    "cwd": "$ZED_WORKTREE_ROOT",
+    "reveal": "always",
+    "hide": "never",
+    "use_new_terminal": true,
+    "allow_concurrent_runs": false
+  },
+  {
+    "label": "Serve WASM",
+    "command": "make",
+    "args": [
+      "serve"
+    ],
+    "cwd": "$ZED_WORKTREE_ROOT",
+    "reveal": "always",
+    "hide": "never",
+    "use_new_terminal": true,
+    "allow_concurrent_runs": false
+  },
+  {
+    "label": "Package .love",
+    "command": "make",
+    "args": [
+      "love"
+    ],
+    "cwd": "$ZED_WORKTREE_ROOT",
+    "reveal": "always",
+    "hide": "on_success",
+    "use_new_terminal": true,
+    "allow_concurrent_runs": false
+  },
+  {
+    "label": "Clean Build",
+    "command": "make",
+    "args": [
+      "clean"
+    ],
+    "cwd": "$ZED_WORKTREE_ROOT",
+    "reveal": "always",
+    "hide": "on_success",
+    "use_new_terminal": true,
+    "allow_concurrent_runs": false
+  }
+]
